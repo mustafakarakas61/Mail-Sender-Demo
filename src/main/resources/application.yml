@@ -1,0 +1,18 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    username: java.mail.deneme.31@gmail.com
+    password: denemeMaili
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enabled: true
+    default-encoding: UTF-8
+    protocol: smtp
+    debug: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
